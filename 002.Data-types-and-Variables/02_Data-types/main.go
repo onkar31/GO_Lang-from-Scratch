@@ -3,6 +3,9 @@ package main
 import "fmt"
 
 func main() {
+// Basic Data types
+	
+	//string = "Go is Amazing"
 	message := "Go is Amazing"
 	fmt.Println(message)
 
@@ -22,5 +25,4 @@ func main() {
 	var isTrue bool = true 
 	fmt.Println(isTrue)
 	
-	//text = Hello world
 }
