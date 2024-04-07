@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
 // Basic Data types
@@ -24,5 +27,9 @@ func main() {
 	//boolean = true/false 
 	var isTrue bool = true 
 	fmt.Println(isTrue)
+
+	//composite data types
+	var result time.Time = time.Now()
+	fmt.Println(result)
 	
 }
