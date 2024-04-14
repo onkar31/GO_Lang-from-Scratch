@@ -22,4 +22,10 @@ func main() {
 	message = message + "awesome!" //concatenation
 	fmt.Println(message)
 
+	fmt.Println("++++++++++++++++Escaping Characters++++++++++++++++++")
+
+	fmt.Println("Go is an \t awesome\\") // \t used for space
+	// To print double quotes in print statment
+	fmt.Println("The Person Who Masters Himself Through \"Self-Control\" and \"Discipline\" is Truly Undefeatable!")
+
 }
