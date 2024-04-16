@@ -1,0 +1,18 @@
+package main
+
+import "fmt"
+
+const (
+	// Declaring multiple constants
+	companyName = "Acme Corporation"
+	yearFounded = 2000
+)
+
+func main() {
+	// Using the constants
+	fmt.Println("Company:", companyName)
+	fmt.Println("Year Founded:", yearFounded)
+
+	// This will result in a compilation error since constants cannot be reassigned.
+	// companyName = "New Company"
+}
