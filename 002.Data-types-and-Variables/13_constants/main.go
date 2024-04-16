@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 const (
 	// Declaring multiple constants
@@ -15,4 +18,7 @@ func main() {
 
 	// This will result in a compilation error since constants cannot be reassigned.
 	// companyName = "New Company"
+	
+	// This will result in a compilation error since constants cannot accepts/assigned with composite data type.
+	//const time = time.Now()
 }
