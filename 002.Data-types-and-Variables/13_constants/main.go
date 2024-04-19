@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"time"
 )
 
 const (
@@ -18,7 +17,7 @@ func main() {
 
 	// This will result in a compilation error since constants cannot be reassigned.
 	// companyName = "New Company"
-	
+
 	// This will result in a compilation error since constants cannot accepts/assigned with composite data type.
 	//const time = time.Now()
 }
