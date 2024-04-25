@@ -9,6 +9,14 @@ import (
 )
 
 func main() {
+
+	var num1, num2 int
+	fmt.Scanln(&num1, &num2)
+	sum := num1 + num2
+	fmt.Println("Addition of two numbers", sum)
+
+	//-----------------------------------------------------//
+
 	r := bufio.NewReader(os.Stdin)
 	line, err := r.ReadString('\n')
 	if err != nil {
