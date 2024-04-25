@@ -31,4 +31,15 @@ func main() {
 	}
 	fmt.Println("My number is", num)
 	fmt.Println("Increment it by 10:", num+10)
+
+	line, err = r.ReadString('\n')
+	if err != nil {
+		panic(err)
+	}
+
+	floatNum, err := strconv.ParseFloat(strings.TrimSpace(line), 64)
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println("My float number is:", floatNum)
 }
